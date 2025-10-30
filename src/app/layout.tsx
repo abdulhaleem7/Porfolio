@@ -17,10 +17,16 @@ export const metadata: Metadata = {
   description: "Professional portfolio of Abdul-Haleem Salaudeen, a Software Engineer specializing in .NET development for fintech and e-commerce solutions. Based in Lagos, Nigeria.",
   keywords: ["Abdul-Haleem Salaudeen", "Software Engineer", "ASP.NET Core", "Fintech", "E-Commerce", "C#", ".NET", "Lagos", "Nigeria"],
   authors: [{ name: "Abdul-Haleem Salaudeen" }],
+  icons: {
+    icon: '/IMG_7981.JPG',
+    shortcut: '/IMG_7981.JPG',
+    apple: '/IMG_7981.JPG',
+  },
   openGraph: {
     title: "Abdul-Haleem Salaudeen | Software Engineer",
     description: "Professional portfolio showcasing .NET development expertise in fintech and e-commerce solutions.",
     type: "website",
+    images: ['/IMG_7981.JPG'],
   },
 };
 
